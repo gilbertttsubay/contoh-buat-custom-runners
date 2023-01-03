@@ -1,0 +1,9 @@
+name: Test with custom runner
+on: push
+
+jobs:
+  test-custom-runner:
+    runs-on: self-hosted
+    steps:
+      - name: Print Echo
+        run: echo "Gilbert Subay"
